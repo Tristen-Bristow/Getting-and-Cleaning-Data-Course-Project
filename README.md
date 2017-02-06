@@ -1,8 +1,6 @@
 ## readme
 
-* 'mergedset.csv': Full combined train/test table, merged by R-script  
-* 'actaverage.csv': Agglomeration mean-value-table by activity, R script output  
-* 'subaverage.csv': Agglomeration mean-value-table by subject, R script output  
+* 'mergedset.csv': Full combined train/test table, merged by R-script   
 * 'run_analysis.R' : R-script for data processing  
 ## The run_analysis.R script processes the raw data into the desired format following the steps below:  
 
