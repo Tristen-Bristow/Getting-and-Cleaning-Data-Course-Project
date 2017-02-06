@@ -133,12 +133,12 @@ the processed data is as follows:
 Al, except activity and subject, where activities (activity) recorded were: WALKING
 WALKING_UPSTAIRS 
 
-WALKING_DOWNSTAIRS, SITTING STANDING,
-LAYING, and study subjects (subject) were numbered 1-30.
-j-prefix is for jerk, Euclidean norm of linear acceleration and angular velocity
-t-prefix time domain signals, T
-f-prefix is frequency domain signals, HZ
-'-xyz' is used to denote 3-axial signals in the X, Y and Z directions
+WALKING_DOWNSTAIRS, SITTING STANDING,  
+LAYING, and study subjects (subject) were numbered 1-30.  
+j-prefix is for jerk, Euclidean norm of linear acceleration and angular velocity  
+t-prefix time domain signals, T  
+f-prefix is frequency domain signals, HZ  
+'-xyz' is used to denote 3-axial signals in the X, Y and Z directions  
 tBody accel mean (x-dir)  
 tBody accel mean (y-dir) 
 tBody accel mean (z-dir)  
