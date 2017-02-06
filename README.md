@@ -4,7 +4,7 @@
 * 'actaverage.csv': Agglomeration mean-value-table by activity, R script output  
 * 'subaverage.csv': Agglomeration mean-value-table by subject, R script output  
 * 'run_analysis.R' : R-script for data processing  
-## The run_analysis.R processes the raw data into the desired format following the steps below:  
+## The run_analysis.R script processes the raw data into the desired format following the steps below:  
 
  A. Load training and test data.  
  B. Apply descriptive variable names  
