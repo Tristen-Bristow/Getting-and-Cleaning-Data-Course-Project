@@ -130,36 +130,39 @@ angle(): Angle between to vectors.
 
 the processed data is as follows:
 
-All units are in Hz, except activity and subject, where activities (activity) recorded were: WALKING
+Al, except activity and subject, where activities (activity) recorded were: WALKING
 WALKING_UPSTAIRS 
 
 WALKING_DOWNSTAIRS, SITTING STANDING,
 LAYING, and study subjects (subject) were numbered 1-30.
-
+j-prefix is for jerk, Euclidean norm of linear acceleration and angular velocity
+t-prefix time domain signals, T
+f-prefix is frequency domain signals, HZ
+'-xyz' is used to denote 3-axial signals in the X, Y and Z directions
 tBody accel mean (x-dir)  
-tBody accel mean (y-dir)  
+tBody accel mean (y-dir) 
 tBody accel mean (z-dir)  
 tGravity accel mean (x-dir)  
-tGravity accel mean (y-dir)  
+tGravity accel mean (y-dir) 
 tGravity accel mean (z-dir)  
 tBody accel jrk mean (x-dir)  
 tBody accel jrk mean (y-dir)  
-tBody accel jrk mean (z-dir)  
+tBody accel jrk mean (z-dir) 
 tBodyGyro mean (x-dir)  
 tBodyGyro mean (y-dir)  
 tBodyGyro mean (z-dir)  
-tBodyGyro jrk mean (x-dir)  
+tBodyGyro jrk mean (x-dir) 
 tBodyGyro jrk mean (y-dir)  
 tBodyGyro jrk mean (z-dir)  
 tBody accel mag. mean  
-tGravity accel mag. mean     
-tBody accel jrk mag. mean   
-tBodyGyro mag. mean   
+tGravity accel mag. mean   
+tBody accel jrk mag. mean  
+tBodyGyro mag. mean  
 tBodyGyro jrk mag. mean   
 fBody accel mean (x-dir)  
 fBody accel mean (y-dir)  
 fBody accel mean (z-dir)  
-fBody accel mean freq (x-dir)  
+fBody accel mean freq (x-dir) 
 fBody accel mean freq (y-dir)  
 fBody accel mean freq (z-dir)  
 fBody accel jrk mean (x-dir)  
@@ -171,17 +174,17 @@ fBody accel jrk mean freq (z-dir)
 fBodyGyro mean (x-dir)  
 fBodyGyro mean (y-dir)  
 fBodyGyro mean (z-dir)  
-fBodyGyro mean freq (x-dir)  
-fBodyGyro mean freq (y-dir)  
-fBodyGyro mean freq (z-dir)  
+fBodyGyro mean freq (x-dir)  (Hz)
+fBodyGyro mean freq (y-dir)  (Hz)
+fBodyGyro mean freq (z-dir)  (Hz)
 fBody accel mag. mean   
-fBody accel mag. mean freq   
+fBody accel mag. mean freq   (Hz)
 fBodyBody accel jrk mag. mean   
-fBodyBody accel jrk mag. mean freq   
+fBodyBody accel jrk mag. mean freq	(Hz)   
 fBodyBodyGyro mag. mean   
-fBodyBodyGyro mag. mean freq   
+fBodyBodyGyro mag. mean freq   	(Hz)
 fBodyBodyGyro jrk mag. mean   
-fBodyBodyGyro jrk mag. mean freq   
+fBodyBodyGyro jrk mag. mean freq   (Hz)
 angle tBody accel mean gravity   
 angle tBody accel jrk mean gravity mean   
 angle tBodyGyro mean gravity mean   
@@ -196,7 +199,7 @@ tGravity accel std-dev (x-dir)
 tGravity accel std-dev (y-dir)  
 tGravity accel std-dev (z-dir)  
 tBody accel jrk std-dev (x-dir)  
-tBody accel jrk std-dev (y-dir)  
+tBody accel jrk std-dev (y-dir) 
 tBody accel jrk std-dev (z-dir)  
 tBodyGyro std-dev (x-dir)  
 tBodyGyro std-dev (y-dir)  
@@ -222,6 +225,6 @@ fBody accel mag. std-dev
 fBodyBody accel jrk mag. std-dev   
 fBodyBodyGyro mag. std-dev   
 fBodyBodyGyro jrk mag. std-dev   
-activity label  
-subject    
+activity label  [WALKING_DOWNSTAIRS, SITTING STANDING, LAYING, WALKING, WALKING_UPSTAIRS] 
+subject (study participant 1-30)
    
