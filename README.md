@@ -1,7 +1,8 @@
 ## readme
 
 * 'mergedset.csv': Full combined train/test table, merged by R-script   
-* 'run_analysis.R' : R-script for data processing  
+* 'run_analysis.R' : R-script for data processing 
+* 'CodeBook.md' : An updated  codebook from the original study that includes data cleaning information from this assignment
 ## The run_analysis.R script processes the raw data into the desired format following the steps below:  
 
  A. Load training and test data.  
