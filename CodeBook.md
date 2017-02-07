@@ -102,12 +102,10 @@ measurements for individual subjects (subaverage.csv), and the classes of measur
 The dataset includes the following files:
 =========================================
 
-- 'README.txt'
-- 'actaverage.csv'
+- 'README.md'
 - 'mergedset.csv'
-- 'subaverage.csv'
 - 'run_analysis.R'
-
+- 'CodeBook.md'
 variable words contain name-elements that can be referenced by the following study definitions:
 
 mean(): Mean value
