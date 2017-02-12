@@ -210,7 +210,7 @@ names(m_table6) <- tablenames
 
 m_table7 <- cbind(m_table5,m_table6)
 setwd(dr)
-#write.csv(m_table4, file = "merged set.csv")
+write.csv(m_table4, file = "merged set.csv")
 #write.csv(m_table5, file = "actaverage.csv")
 #write.csv(m_table6, file = "subaverage.csv")
 
