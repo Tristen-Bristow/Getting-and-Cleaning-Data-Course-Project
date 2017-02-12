@@ -214,5 +214,5 @@ write.csv(m_table4, file = "merged set.csv")
 #write.csv(m_table5, file = "actaverage.csv")
 #write.csv(m_table6, file = "subaverage.csv")
 
-write.table(m_table7,"mergedset.txt",row.name=FALSE)
+#write.table(m_table7,"mergedset.txt",row.name=FALSE)
 #write.csv(m_table7, file = "new_merge.csv")
